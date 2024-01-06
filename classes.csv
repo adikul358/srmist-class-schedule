@@ -1,24 +1,56 @@
-class,period,day,link
-HR,0,MON,meet.google.com/jpy-ivvq-fto
-HR,0,FRI,meet.google.com/nym-xysz-vqf 
+course,room,day_order,start_hour,end_hour
+[21CSC101T] Object Oriented Design and Programming,"1013, UB, SRMIST",1,1,2
+[21PDM102L] General Aptitude,"1013, UB, SRMIST",1,5,5
 
-Well Being,3,THU,meet.google.com/den-dqap-utq
+[21MAB102T] Advanced Calculus and Complex Analysis,"1013, UB, SRMIST",2,6,7
+[21PDM102L] General Aptitude,"1013, UB, SRMIST",2,8,9
+[21CSC101T] Object Oriented Design and Programming,"1013, UB, SRMIST",2,10,10
 
-Chemistry,2,MON,meet.google.com/sty-cmkd-dnc
-Chemistry,6,WED,meet.google.com/sty-cmkd-dnc
-Chemistry,5,THU,meet.google.com/sty-cmkd-dnc
-Chemistry,3,FRI,meet.google.com/sty-cmkd-dnc
+[21EES101T] Electrical and Electronics Engineering,"1013, UB, SRMIST",3,1,2
+[21CSC101T] Object Oriented Design and Programming,"1013, UB, SRMIST",3,3,3
+[21PYB102J] Semiconductor Physics and Computational Methods,"1013, UB, SRMIST",3,4,4
+[21MAB102T] Advanced Calculus and Complex Analysis,"1013, UB, SRMIST",3,5,5
+[21PYB102J] Semiconductor Physics and Computational Methods,,3,7,8
 
-Economics B,2,WED,meet.google.com/bcn-riuj-tsi
-Economics B,4,WED,meet.google.com/bcn-riuj-tsi
-Economics B,6,FRI,meet.google.com/udu-kwsr-uzf
+[21MES102L] Engineering Graphics and Design,,4,1,4
+[21PYB102J] Semiconductor Physics and Computational Methods,"1013, UB, SRMIST",4,6,7
+[21MAB102T] Advanced Calculus and Complex Analysis,"1013, UB, SRMIST",4,8,8
+[21LEH101T] Communicative English,"1013, UB, SRMIST",4,9,9
+[21EES101T] Electrical and Electronics Engineering,"1013, UB, SRMIST",4,10,10
 
-English A,2,THU,meet.google.com/bex-pamd-vqr
-English A,2,FRI,meet.google.com/azr-nquk-awp
+[21LEH101T] Communicative English,"1013, UB, SRMIST",5,1,2
+[21EES101T] Electrical and Electronics Engineering,"1013, UB, SRMIST",5,3,3
+[21PYB102J] Semiconductor Physics and Computational Methods,"1013, UB, SRMIST",5,5,5
+[21LEM101T] Environmental Science,Google Meet,5,7,7
+[21LEM101T] Constitution of India,Google Meet,5,8,8
 
-Standard Math,1,MON,meet.google.com/cex-tawn-hxh
-Standard Math,1,FRI,meet.google.com/cex-tawn-hxh
 
-Physics,4,MON,meet.google.com/zxb-bxey-sac
-Physics,5,WED,meet.google.com/zxb-bxey-sac
-Physics,4,THU,meet.google.com/zxb-bxey-sac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
