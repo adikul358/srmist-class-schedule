@@ -4,6 +4,8 @@ from datetime import datetime, timedelta
 from os import system
 import csv
 
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 def next_monday():
     return datetime.now() + timedelta((0 - datetime.now().weekday()) % 7)
@@ -49,15 +51,17 @@ print()
 c = Calendar()
 
 for i in day_orders:
-    if i != 0: 
-        for curr_class in classes[i-1]:
-            e = Event()
+    date_str = curr_date.strftime("%Y-%m-%d")
 
-            date_str = curr_date.strftime("%Y-%m-%d")
+    if i != 0: 
+        print(f'Creating events for {date_str}...')
+        for curr_class in classes[i-1]:
             date_begin_str = f'{date_str} {curr_class["begin"]}+0530'
             date_end_str = f'{date_str} {curr_class["end"]}+0530'
             date_begin = datetime.strptime(date_begin_str, "%Y-%m-%d %H%M%z")
             date_end = datetime.strptime(date_end_str, "%Y-%m-%d %H%M%z")
+            e = Event()
+
 
             e.name = curr_class['name']
             e.begin = date_begin.strftime("%Y-%m-%d %H:%M:%S%z")
@@ -68,15 +72,18 @@ for i in day_orders:
                         
             c.events.add(e)
 
-            print(f'Created  {date_str} {curr_class["begin"]}-{curr_class["end"]} {curr_class["name"]}')
-    
+            print(f'Created event {curr_class["name"][:11]} at {curr_class["begin"]}-{curr_class["end"]}')
+    else:
+        print(f'Skipping events for {date_str}')
+
+    print()
     curr_date += timedelta(1)
+
 
 with open('out.ics', 'w') as my_file:
     my_file.writelines(c)
 
-print()
-print()
 print("Exported out.ics")
+print("Opening out.ics for calendar import...")
 
 system('open out.ics')
