@@ -1,56 +1,23 @@
 course,room,day_order,start_hour,end_hour
-[21CSC101T] Object Oriented Design and Programming,"1013, UB, SRMIST",1,1,2
-[21PDM102L] General Aptitude,"1013, UB, SRMIST",1,5,5
+[21CSC204J] Design and Analysis of Algorithms,"CLS405, TP2, SRMIST",1,1,2
+[21MAB204T] Probability and Queueing Theory,"LH614, TP2, SRMIST",1,6,7
+[21CSC206T] Artificial Intelligence,"LH614, TP2, SRMIST",1,8,9
+[21LEM202T] Universal Human Values - II,"LH614, TP2, SRMIST",1,10,10
 
-[21MAB102T] Advanced Calculus and Complex Analysis,"1013, UB, SRMIST",2,6,7
-[21PDM102L] General Aptitude,"1013, UB, SRMIST",2,8,9
-[21CSC101T] Object Oriented Design and Programming,"1013, UB, SRMIST",2,10,10
+[21CSC204J] Design and Analysis of Algorithms,"LH614, TP2, SRMIST",2,1,2
+[21LEM202T] Universal Human Values - II,"LH614, TP2, SRMIST",2,3,4
+[21MAB204T] Probability and Queueing Theory,"LH614, TP2, SRMIST",2,5,5
 
-[21EES101T] Electrical and Electronics Engineering,"1013, UB, SRMIST",3,1,2
-[21CSC101T] Object Oriented Design and Programming,"1013, UB, SRMIST",3,3,3
-[21PYB102J] Semiconductor Physics and Computational Methods,"1013, UB, SRMIST",3,4,4
-[21MAB102T] Advanced Calculus and Complex Analysis,"1013, UB, SRMIST",3,5,5
-[21PYB102J] Semiconductor Physics and Computational Methods,,3,7,8
+[21CSE265T] Introduction to Embedded Programming and Embedded OS,"LH221, TP2, SRMIST",3,6,7
+[21MAB204T] Probability and Queueing Theory,"LH614, TP2, SRMIST",3,8,8
+[21CSC205P] Database Management Systems,"LH614, TP2, SRMIST",3,9,9
 
-[21MES102L] Engineering Graphics and Design,,4,1,4
-[21PYB102J] Semiconductor Physics and Computational Methods,"1013, UB, SRMIST",4,6,7
-[21MAB102T] Advanced Calculus and Complex Analysis,"1013, UB, SRMIST",4,8,8
-[21LEH101T] Communicative English,"1013, UB, SRMIST",4,9,9
-[21EES101T] Electrical and Electronics Engineering,"1013, UB, SRMIST",4,10,10
+[21CSC205P] Database Management Systems,"LH614, TP2, SRMIST",4,1,2
+[21CSC204J] Design and Analysis of Algorithms,"LH614, TP2, SRMIST",4,3,3
+[21PDH209T] Social Engineering,"LH614, TP2, SRMIST",4,4,4
+[21CSE265T] Introduction to Embedded Programming and Embedded OS,"LH221, TP2, SRMIST",4,5,5
 
-[21LEH101T] Communicative English,"1013, UB, SRMIST",5,1,2
-[21EES101T] Electrical and Electronics Engineering,"1013, UB, SRMIST",5,3,3
-[21PYB102J] Semiconductor Physics and Computational Methods,"1013, UB, SRMIST",5,5,5
-[21LEM101T] Environmental Science,Google Meet,5,7,7
-[21LEM101T] Constitution of India,Google Meet,5,8,8
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[21PDH209T] Social Engineering,"LH614, TP2, SRMIST",5,6,7
+[21CSE265T] Introduction to Embedded Programming and Embedded OS,"LH221, TP2, SRMIST",5,8,8
+[21CSC206T] Artificial Intelligence,"LH614, TP2, SRMIST",5,9,9
+[21CSC205P] Database Management Systems,"LH614, TP2, SRMIST",5,10,10

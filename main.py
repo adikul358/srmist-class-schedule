@@ -76,8 +76,6 @@ nm_prompt = next_monday().strftime("%Y-%m-%d")
 init_date = input(f'Date of Reference Monday ({nm_prompt}): ')
 if init_date == "":
     init_date = nm_prompt
-elif datetime.strptime(init_date, "%Y-%m-%d").strftime("%w") != "1":
-    raise ValueError("Entered date not a Monday")
 curr_date = datetime.strptime(init_date, "%Y-%m-%d")
 
 # Get space separated day orders from Monday onwards
@@ -104,7 +102,7 @@ for i in day_orders:
             e.begin = date_begin.strftime("%Y-%m-%d %H:%M:%S%z")
             e.end = date_end.strftime("%Y-%m-%d %H:%M:%S%z")
             e.location = curr_class['desc']
-            e.alarms = [DisplayAlarm(trigger=date_begin)]
+            e.alarms = [DisplayAlarm(trigger=date_begin), DisplayAlarm(trigger=timedelta(minutes=-10))]
             # DisplayAlarm(trigger=timedelta(minutes=-10)),
                         
             c.events.add(e)
